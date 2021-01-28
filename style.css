@@ -28,7 +28,7 @@ h1 {
   top: 0;
   bottom: 0;
   left: 50%;
-  transform: translate(-50%, 0%) 
+  transform: translate(-50%, 0%);
 }
 
 .twood {
@@ -37,12 +37,14 @@ h1 {
   font-size: 2em;
   text-align: center;
   padding: 1em 0;
+  background-color: beige;
 }
 
 #new-twood {
   width: 100%;
   border: 1px solid lightgray;
   text-align: center;
+  background-color: aquamarine;
 }
 
 #twood-input {

@@ -1,16 +1,12 @@
-document.querySelector('#submit-twood').addEventListener('click', () => {
-  const newText = document.querySelector('#twood-input').value
-  // document.querySelector('.twood').innerText = newText
-  document.querySelector('#twood-input').value = ''
+const buttton = document.querySelector("#submit-twood");
+// console.log(buttton);
 
-  const newTwood = document.createElement('div')
-  document.querySelector('.twoods-container').append(newTwood)
-  // newTwood.classList.add('twood')
-  // newTwood.innerText = newText
+buttton.addEventListener("click", function () {
+  console.log("Button was clicked");
+  const twood = document.getElementById("twood-input").value;
+  document.querySelector(".twood").innerHTML = twood;
 
+  console.log(twood);
+});
 
-})
-
-setTimeout(() => {
-  document.querySelector('.cutoff').classList.remove('hidden')  
-}, 200000)
+// document.querySelector(".twood");
