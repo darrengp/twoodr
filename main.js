@@ -4,7 +4,7 @@ const buttton = document.querySelector("#submit-twood");
 buttton.addEventListener("click", function () {
   console.log("Button was clicked");
   const twood = document.getElementById("twood-input").value;
-  document.querySelector(".twood").innerHTML = twood;
+  document.querySelector(".twood").innerText = twood;
 
   console.log(twood);
 });
